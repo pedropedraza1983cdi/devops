@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d959b72a-f3f0-426c-b9d2-3d617e39cf27",
+		"name": "devops",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7392411"
+	},
+	"item": [
+		{
+			"name": "https://esb-acc.corferias.co/services/agenda_newapp/agendaNewApp",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://esb-acc.corferias.co/services/agenda_newapp/agendaNewApp",
+					"protocol": "https",
+					"host": [
+						"esb-acc",
+						"corferias",
+						"co"
+					],
+					"path": [
+						"services",
+						"agenda_newapp",
+						"agendaNewApp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
